@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar styling */
+#navbar{
+    background-color: black;
+    opacity: 0.8;
+    position: relative;
+
+}
+#navbar ul{
+    display: flex;
+    padding: 5px 5px;
+    margin:0px;
+}
+#navbar li{
+    color: white;
+    list-style: none;
+    margin: 15px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 17px;
+    margin: 15px;
+}
+#navbar ul li a:hover{
+    border-radius: 2px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 23px;
+}
+#navbar img{
+    position: absolute;
+    top: 12px;
+    right: 50px;
+    height: 45px;
+    width: 45px;
+    filter: invert(100%);
+}
+
+/* Section Styling */
+#section1{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: center center / cover no-repeat url("../static/AboutBack.jpg");
+    height: 1200px;
+    margin: 0px;
+
+}
+.main{
+    display: flex;
+    opacity: 1;
+    color: black;
+    border: 2px solid black;
+    background: rgba(245, 245, 220, 0.6);
+    align-items: center;
+    text-align: center;
+    border-radius: 23px;
+    flex-direction: column;
+    width: 99%;
+    height: 99%;
+    margin: 5px 5px;
+    position: relative;
+}
+.main h1{
+    padding: 8px 10px;
+    margin: 5px;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 45px;
+}
+.main ul{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.main li{
+    list-style-type: disc;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 12px 10px;
+    margin-bottom: 10px;
+}
+.main p{
+    font-weight: bold;
+    font-size: 17px;
+    padding: 12px 10px;
+    margin-bottom: 10px;
+}
+.main hr{
+    width: 95%;
+    background: white;
+    filter: invert(100%);
+    margin-top: 30px;
+    height: 3px;
+}
+.main h2{
+    margin: 9px 10px;
+    font-weight: bold;
+    text-decoration: underline ;
+    font-size: 35px;
+
+}
+#images{
+    display: inline-block;
+}
+.img1{
+    position: absolute;
+    left: 137px;
+    top: 706px;
+    height: 90px;
+    width: 200px;
+}
+.img2{
+    position: absolute;
+    left: 462px;
+    top: 680px;
+    height: 160px;
+    width: 230px;
+}
+.img3{
+    position: absolute;
+    right: 470px;
+    top: 720px;
+    height: 80px;
+    width: 190px;
+}
+.img4{
+    position: absolute;
+    right: 145px;
+    top: 734px;
+    height: 50px;
+    width: 200px;
+}
+.hr2{
+    position: absolute;
+    top: 800px;
+    width: 95%;
+    background: white;
+    filter: invert(100%);
+    margin-top: 30px;
+    height: 3px;
+}
+.head{
+    position: absolute;
+    top: 835px;
+    margin: 9px 10px;
+    font-weight: bold;
+    text-decoration: underline ;
+    font-size: 35px;
+
+}
+.more h3{
+    margin-bottom: 10px;
+    text-decoration: underline;
+
+}
+.more{
+    position: absolute;
+    left: 330px;
+    top: 950px;
+}
+.more li{
+    padding: 0px;
+}
+.more2 h3{
+    margin-bottom: 10px;
+    text-decoration: underline;
+
+}
+.more2{
+    position: absolute;
+    right: 330px;
+    top: 950px;
+}
+.more2 li{
+    padding: 0px;
+}
+
+
+
+
+/* Footer Styling */
+#copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+}

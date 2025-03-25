@@ -1,0 +1,27 @@
+extends Base.pug 
+
+block scripts 
+ script(src='/static/index.js')
+block style
+ style 
+    include ../static/Register.css 
+block content
+ section#section1 
+  div.form 
+   h1 Register Now 
+  div.form-group 
+   form(action="/Register", method="post", class="myForm")
+    label(for="Name", class="myLabel") Name: 
+    input(type="text", class="myClass", name="Name", placeholder="Enter your name")
+    label(for="Phone", class="myLabel") Phone: 
+    input(type="Phone", class="myClass", name="Phone", placeholder="Enter your Mobile no")
+    label(for="E-mail", class="myLabel") E-mail: 
+    input(type="E-mail", class="myClass", name="Email", placeholder="Enter your e-mail") 
+    label(for="Instrument", class="myLabel") Instrument: 
+    input(type="text", class="myClass", name="Instrument", placeholder="Enter the instrument you are interested in") 
+    label(for="Age", class="myLabel") Age: 
+    input(type="text", class="myClass", name="Age", placeholder="Enter your age") 
+    label(for="Queries", class="myLabel") Queries: 
+    textarea(name="Queries",class="textarea", placeholder="If you have any query enterhere") 
+    button(class="btn")
+     | Submit
