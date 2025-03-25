@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar styling */
+#navbar{
+    background-color: black;
+    opacity: 0.8;
+    position: relative;
+
+}
+#navbar ul{
+    display: flex;
+    padding: 5px 5px;
+    margin:0px;
+}
+#navbar li{
+    color: white;
+    list-style: none;
+    margin: 15px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 17px;
+    margin: 15px;
+}
+#navbar ul li a:hover{
+    border-radius: 2px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 23px;
+}
+#navbar img{
+    position: absolute;
+    top: 12px;
+    right: 50px;
+    height: 45px;
+    width: 45px;
+    filter: invert(100%);
+}
+
+/* Section Styling */
+#section1{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: center center / cover no-repeat url("../static/guitar.jpg");
+    height: 400px;
+    margin: 0px;
+
+}
+.guitar{
+    display: flex;
+    opacity: 1;
+    color: black;
+    border: 2px solid black;
+    background: rgba(245, 245, 220, 0.5);
+    align-items: center;
+    text-align: center;
+    border-radius: 23px;
+    flex-direction: column;
+    width: 99%;
+    height: 99%;
+    margin: 5px 5px;
+    position: relative;
+}
+.guitar h1{
+    padding: 8px 10px;
+    margin: 5px;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.guitar p{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 10px;
+    margin-bottom: 10px;
+}
+#section2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: center center / cover no-repeat url("../static/Drums.webp");
+    height: 400px;
+    margin: 0px;
+
+}
+.drums{
+    display: flex;
+    opacity: 1;
+    color: black;
+    border: 2px solid black;
+    background: rgba(245, 245, 220, 0.5);
+    align-items: center;
+    text-align: center;
+    border-radius: 23px;
+    flex-direction: column;
+    width: 99%;
+    height: 99%;
+    margin: 5px 5px;
+    position: relative;
+}
+.drums h1{
+    padding: 8px 10px;
+    margin: 5px;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.drums p{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 10px;
+    margin-bottom: 10px;
+}
+#section3{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: center center / cover no-repeat url("../static/piano.jpg");
+    height: 400px;
+    margin: 0px;
+
+}
+.piano{
+    display: flex;
+    opacity: 1;
+    color: black;
+    border: 2px solid black;
+    background: rgba(245, 245, 220, 0.5);
+    align-items: center;
+    text-align: center;
+    border-radius: 23px;
+    flex-direction: column;
+    width: 99%;
+    height: 99%;
+    margin: 5px 5px;
+    position: relative;
+}
+.piano h1{
+    padding: 8px 10px;
+    margin: 5px;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.piano p{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 10px;
+    margin-bottom: 10px;
+}
+#section4{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: center center / cover no-repeat url("../static/Synthesizer.jpg");
+    height: 400px;
+    margin: 0px;
+
+}
+.synthesizer{
+    display: flex;
+    opacity: 1;
+    color: black;
+    border: 2px solid black;
+    background: rgba(245, 245, 220, 0.5);
+    align-items: center;
+    text-align: center;
+    border-radius: 23px;
+    flex-direction: column;
+    width: 99%;
+    height: 99%;
+    margin: 5px 5px;
+    position: relative;
+}
+.synthesizer h1{
+    padding: 8px 10px;
+    margin: 5px;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.synthesizer p{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 10px;
+    margin-bottom: 10px;
+}
+#section5{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: center center / cover no-repeat url("../static/saxo.webp");
+    height: 400px;
+    margin: 0px;
+
+}
+.sax{
+    display: flex;
+    opacity: 1;
+    color: black;
+    border: 2px solid black;
+    background: rgba(245, 245, 220, 0.5);
+    align-items: center;
+    text-align: center;
+    border-radius: 23px;
+    flex-direction: column;
+    width: 99%;
+    height: 99%;
+    margin: 5px 5px;
+    position: relative;
+}
+.sax h1{
+    padding: 8px 10px;
+    margin: 5px;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.sax p{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Footer Styling */
+#copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+}

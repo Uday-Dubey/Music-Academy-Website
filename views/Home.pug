@@ -1,0 +1,39 @@
+extends Base.pug 
+
+block scripts 
+ script(src='/static/index.js')
+block style
+ style 
+    include ../static/Home.css 
+block content 
+    section#section1
+     div.main
+        h1 SYMPHONY SCHOLARS
+        p Welcome to Symphony Scholars Music School, where the art of music comes alive! At Symphony Scholars, we believe in the transformative power of music to inspire, uplift, and connect people of all ages. Our school is dedicated to nurturing the talents of aspiring musicians, from beginners to advanced performers. Whether you're learning your first notes or refining your technique, our experienced instructors are here to guide you every step of the way. Join us on a journey of musical discovery, where creativity and passion lead the way. Let's create beautiful music together!
+        hr
+        h2 Our Services
+        div.card1
+            h3 Guitar
+            p Strum your way to success with our guitar classes, designed for players of all levels. Learn the fundamentals of chords, scales, and strumming patterns, or dive deeper into advanced techniques like fingerpicking and soloing.
+             a.link(href='/Services/#section1')
+                 button.btn Learn More
+        div.card2
+            h3  Drums
+            p Unleash your rhythm with our dynamic drum classes. Whether you're a beginner or an experienced drummer, our instructors will help you master the beats, grooves, and techniques that form the foundation of all music genres.
+             a.link(href='/Services/#section2')
+                 button.btn Learn More
+        div.card3
+            h3 Grand Piano
+            p Discover the joy of piano playing in our comprehensive piano classes. From classical masterpieces to modern pop hits, you'll learn to play with confidence and expression. Our instructors are very skilled.
+             a.link(href='/Services/#section3')
+                 button.btn Learn More
+        div.card4
+            h3 Synthesizer
+            p Explore the limitless possibilities of sound with our synthesizer classes. Perfect for those interested in electronic music, these classes cover everything from the basics of sound design to advanced synthesis techniques.
+             a.link(href='/Services/#section4')
+                 button.btn Learn More
+        div.card5
+            h3 Saxophone
+            p Channel your inner jazz artist with our saxophone classes. Whether you're a beginner or looking to enhance your skills, our instructors will guide you through breath control, tone production, and improvisation techniques.
+             a.link(href='/Services/#section5')
+                 button.btn Learn More
